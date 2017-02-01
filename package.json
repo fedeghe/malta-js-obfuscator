@@ -1,0 +1,28 @@
+{
+  "name": "malta-js-obfuscator",
+  "version": "1.0.0",
+  "description": "Malta plugin to obfuscate javascript code",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://fedeghe@github.com/fedeghe/malta-js-obfuscator.git"
+  },
+  "keywords": [
+    "malta",
+    "malta plugin",
+    "malta js obfuscator",
+    "malta js obfuscator plugin"
+  ],
+  "author": "Federico Ghedina <federico.ghedina@gmail.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/fedeghe/malta-js-obfuscator/issues"
+  },
+  "dependencies": {
+    "javascript-obfuscator": "0.9.0",
+    "malta": ">=3.3.2"
+  },
+  "main": "index.js"
+}
