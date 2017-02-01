@@ -1,6 +1,6 @@
 {
   "name": "malta-js-obfuscator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Malta plugin to obfuscate javascript code",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
