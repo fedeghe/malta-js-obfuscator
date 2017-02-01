@@ -5,13 +5,14 @@ var ob = require('javascript-obfuscator'),
 function obfuscator(obj, options) {
     var self = this,
         start = new Date(),
-        msg;
+        msg,
+        pluginName = path.basename(path.dirname(__filename));
     options = options || {};
     obj.content = ob.obfuscate(obj.content, options);
     return function (solve, reject) {
         fs.writeFile(obj.name, obj.content, function (err) {
             if (err == null) {
-                msg = 'plugin ' + path.basename(__filename) + ' wrote ' + obj.name + ' (' + self.getSize(obj.name) + ')';
+                msg = 'plugin ' + pluginName.white() + ' wrote ' + o.name +' (' + self.getSize(o.name) + ')';
             } else {
                 console.log('[ERROR] js-obfuscator says:');
                 console.dir(err);
