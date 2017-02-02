@@ -44,4 +44,4 @@ or in a script :
             console.log('=========');
         });
 
-For more information about the options checkout the (javascript-obfuscator package on npm)[https://www.npmjs.com/package/javascript-obfuscator] and the related (herokuapp.com page)[https://javascriptobfuscator.herokuapp.com/]
+For more information about the options checkout the [javascript-obfuscator package on npm](https://www.npmjs.com/package/javascript-obfuscator) and the related [herokuapp.com page](https://javascriptobfuscator.herokuapp.com/)
