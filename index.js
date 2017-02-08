@@ -8,7 +8,7 @@ function obfuscator(obj, options) {
         msg,
         pluginName = path.basename(path.dirname(__filename));
     options = options || {};
-    obj.content = ob.obfuscate(obj.content, options);
+    obj.content = ob.obfuscate(obj.content, options).getObfuscatedCode();
     return function (solve, reject) {
         fs.writeFile(obj.name, obj.content, function (err) {
             if (err == null) {

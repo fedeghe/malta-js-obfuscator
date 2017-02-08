@@ -1,6 +1,6 @@
 {
   "name": "malta-js-obfuscator",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Malta plugin to obfuscate javascript code",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -21,8 +21,8 @@
     "url": "https://github.com/fedeghe/malta-js-obfuscator/issues"
   },
   "dependencies": {
-    "javascript-obfuscator": "0.9.0",
-    "malta": ">=3.3.2"
+    "javascript-obfuscator": "0.9.1",
+    "malta": ">=3.3.3"
   },
   "main": "index.js"
 }
