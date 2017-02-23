@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "javascript-obfuscator": "0.9.1",
-    "malta": ">=3.3.3"
+    "malta": ">=3.4.0"
   },
   "main": "index.js"
 }
