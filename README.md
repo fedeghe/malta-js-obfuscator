@@ -7,33 +7,16 @@
 
 This plugin can be used on: **.js** files and even on **.coffee** and **.ts** files after using the right plugin
 
-Options :
-    - compact:
-    - controlFlowFlattening
-    - controlFlowFlatteningThreshold
-    - debugProtection
-    - debugProtectionInterval
-    - disableConsoleOutput
-    - reservedNames
-    - rotateStringArray
-    - seed
-    - selfDefending
-    - sourceMap
-    - sourceMapBaseUrl
-    - sourceMapFileName
-    - sourceMapMode
-    - stringArray
-    - stringArrayEncoding
-    - stringArrayThreshold
-    - unicodeEscapeSequence
+The options avaialbe are all those available in the [javascript-obfuscator package](https://www.npmjs.com/package/javascript-obfuscator).  
+As in every malta plugin, options must be passed as shown in the sample usage below.  
 
 Sample usage:  
 ```
-malta app/source/index.js public/js -plugins=malta-js-obfuscator[compact:false]
+@ malta app/source/index.js public/js -plugins=malta-js-obfuscator[compact:false,target:'browser']
 ```
 or in the .json file :
 ```
-"app/source/index.js" : "public/js -plugins=malta-js-obfuscator"
+"app/source/index.js" : "public/js -plugins=malta-js-obfuscator[compact:false,target:'browser']"
 ```
 or in a script : 
 ``` js
@@ -41,7 +24,7 @@ var Malta = require('malta');
 Malta.get().check([
     'app/source/index.js',
     'public/js',
-    '-plugins=malta-js-obfuscator',
+    '-plugins=malta-js-obfuscator[compact:false,target:\'browser\']',
     '-options=compact:false'
     ]).start(function (o) {
         var s = this;
