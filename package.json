@@ -1,28 +1,28 @@
 {
-  "name": "malta-js-obfuscator",
-  "version": "1.0.12",
-  "description": "Malta plugin to obfuscate javascript code",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://fedeghe@github.com/fedeghe/malta-js-obfuscator.git"
-  },
-  "keywords": [
-    "malta",
-    "malta plugin",
-    "malta js obfuscator",
-    "malta js obfuscator plugin"
-  ],
-  "author": "Federico Ghedina <federico.ghedina@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/fedeghe/malta-js-obfuscator/issues"
-  },
-  "dependencies": {
-    "javascript-obfuscator": "0.18.1",
-    "malta": ">=3.8.14"
-  },
-  "main": "index.js"
+    "name": "malta-js-obfuscator",
+    "version": "1.0.12",
+    "description": "Malta plugin to obfuscate javascript code",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://fedeghe@github.com/fedeghe/malta-js-obfuscator.git"
+    },
+    "keywords": [
+        "malta",
+        "malta plugin",
+        "malta js obfuscator",
+        "malta js obfuscator plugin"
+    ],
+    "author": "Federico Ghedina <fedeghe@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/fedeghe/malta-js-obfuscator/issues"
+    },
+    "dependencies": {
+        "javascript-obfuscator": "0.18.1",
+        "malta": ">=3.8.14"
+    },
+    "main": "index.js"
 }
