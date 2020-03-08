@@ -1,6 +1,5 @@
 ---
 [![npm version](https://badge.fury.io/js/malta-js-obfuscator.svg)](http://badge.fury.io/js/malta-js-obfuscator)
-[![Dependencies](https://david-dm.org/fedeghe/malta-js-obfuscator.svg)](https://david-dm.org/fedeghe/malta-js-obfuscator)
 [![npm downloads](https://img.shields.io/npm/dt/malta-js-obfuscator.svg)](https://npmjs.org/package/malta-js-obfuscator)
 [![npm downloads](https://img.shields.io/npm/dm/malta-js-obfuscator.svg)](https://npmjs.org/package/malta-js-obfuscator)  
 ---  

@@ -1,18 +1,20 @@
-var ob = require('javascript-obfuscator'),
+const ob = require('javascript-obfuscator'),
     path = require('path'),
     fs = require('fs');
 
 function obfuscator(obj, options) {
-    var self = this,
+     const self = this,
         start = new Date(),
-        msg,
         pluginName = path.basename(path.dirname(__filename));
+
+    let msg;
+
     options = options || {};
     
-    return function (solve, reject) {
+    return (solve, reject) => {
         try {
             obj.content = ob.obfuscate(obj.content, options).getObfuscatedCode();
-            fs.writeFile(obj.name, obj.content, function (err) {
+            fs.writeFile(obj.name, obj.content, err => {
                 if (err == null) {
                     msg = 'plugin ' + pluginName.white() + ' wrote ' + obj.name +' (' + self.getSize(obj.name) + ')';
                 } else {

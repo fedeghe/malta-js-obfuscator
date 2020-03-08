@@ -21,8 +21,7 @@
         "url": "https://github.com/fedeghe/malta-js-obfuscator/issues"
     },
     "dependencies": {
-        "javascript-obfuscator": "0.18.1",
-        "malta": "^4.0.4"
+        "javascript-obfuscator": "0.25.4"
     },
     "main": "index.js"
 }
