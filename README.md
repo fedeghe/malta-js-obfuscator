@@ -6,7 +6,7 @@
 
 This plugin can be used on: **.js** files and even on **.coffee** and **.ts** files after using the right plugin
 
-The options avaialbe are all those available in the [javascript-obfuscator package](https://www.npmjs.com/package/javascript-obfuscator).  
+The options available are all those documented in the [javascript-obfuscator package](https://www.npmjs.com/package/javascript-obfuscator).  
 As in every malta plugin, options must be passed as shown in the sample usage below.  
 
 Sample usage:  
